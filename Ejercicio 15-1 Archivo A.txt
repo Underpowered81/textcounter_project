@@ -1,0 +1,22 @@
+Inventario Actual de Productos								
+Proveedor	Código	Descripción	Categoría	Precio Unitario	En Existencia	En Pedido	Unidades Nuevo Pedido	Cantidad por Unidad
+Exotic Liquids	1	Té Dharamsala	Bebidas	18,00 €	39	40	15	10 cajas x 20 bolsas
+Exotic Liquids	2	Cerveza tibetana Barley	Bebidas	19,00 €	17	40	25	24 - bot. 12 l
+Exotic Liquids	3	Sirope de regaliz	Condimentos	10,00 €	13	70	25	12 - bot. 550 ml
+New Orleans Cajun Delights	4	Especias Cajun del chef Anton	Condimentos	22,00 €	53	0	0	48 - frascos 6 l
+New Orleans Cajun Delights	5	Mezcla Gumbo del chef Anton	Condimentos	21,35 €	0	0	0	36 cajas
+Grandma Kelly's Homestead	6	Mermelada de grosellas de la abuela	Condimentos	25,00 €	120	0	25	12 - frascos 8 l
+Grandma Kelly's Homestead	7	Peras secas orgánicas del tío Bob	Frutas/Verduras	30,00 €	15	0	10	12 - paq. 1 kg
+Grandma Kelly's Homestead	8	Salsa de arándanos Northwoods	Condimentos	40,00 €	6	0	0	12 - frascos 12 l
+Tokyo Traders	9	Buey Mishi Kobe	Carnes	97,00 €	29	0	0	18 - paq. 500 g
+Tokyo Traders	10	Pez espada	Pescado/Marisco	31,00 €	31	0	0	12 - frascos 200 ml
+Cooperativa de Quesos 'Las Cabras'	11	Queso Cabrales	Lácteos	21,00 €	22	50	30	paq. 1 kg
+Cooperativa de Quesos 'Las Cabras'	12	Queso Manchego La Pastora	Lácteos	38,00 €	86	0	0	10 - paq. 500 g
+Mayumi's	13	Algas Konbu	Pescado/Marisco	6,00 €	24	0	5	caja 2 kg
+Mayumi's	14	Cuajada de judías	Frutas/Verduras	23,25 €	35	0	0	40 - paq. 100 g
+Mayumi's	15	Salsa de soja baja en sodio	Condimentos	15,50 €	39	0	5	24 - bot. 250 ml
+Pavlova, Ltd.	16	Postre de merengue Pavlova	Repostería	17,45 €	29	0	10	32 - cajas 500 g
+Pavlova, Ltd.	17	Cordero Alice Springs	Carnes	39,00 €	0	0	0	20 - latas 1 kg
+Pavlova, Ltd.	18	Langostinos tigre Carnarvon	Pescado/Marisco	62,50 €	42	0	0	paq. 16 kg
+Specialty Biscuits, Ltd.	19	Pastas de té de chocolate	Repostería	9,20 €	25	0	5	10 cajas x 12 piezas
+Specialty Biscuits, Ltd.	20	Mermelada de Sir Rodney's	Repostería	81,00 €	40	0	0	30 cajas regalo
