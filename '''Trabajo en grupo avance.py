@@ -10,7 +10,8 @@ Algoritmo
 4.palabras <-- leer'''
 
 #cargamos el archivo y leemos las lineas(parrafos) del texto
-with open(r"c:\Users\azend\Downloads\queso.txt", 'r') as archivo:
+Text = input()
+with open(Text, 'r') as archivo:
     lineas = archivo.readlines()
 #creamos una lista para las 6 palabras
 print("ingrese 6 palabras: ")
