@@ -9,12 +9,11 @@ Specific Objectives
     2. Make the program read "TextoCompleto" = TxtCom, to get the following info:
         2.1. Get the ammount of lines present in the document and store them in a 
         variable for later use
-        2.2.
-        2.3. Generate a graph that uses (0, 0) to (xvalue, yvalue), being "yvalue" the 
-        ammount of words found in a line, and "xvalue" being the line that the 
-        "yvalue" was located in
-
-            
+        2.2. Get the largest ammount of times any word appear in the document and 
+        store for later use
+        2.3. Generate a graph that uses (0, 0) to (xvalue, yvalue), being "yvalue" 
+        the ammount times a word was found in a line, and "xvalue" being the line
+        that the "yvalue" was located in
 
         2.2. Generate a values table that prints the ammount of times the word appears 
         in the whole document, maximum and minimum ammount of times a word appears in
