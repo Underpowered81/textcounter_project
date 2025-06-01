@@ -22,7 +22,7 @@ Specific Objectives
             2.2.1.
             2.2.2.  ESTADISTICAS DE PALABRAS
             2.2.3.  Palabra 1: (word1)
-            2.2.4.  Total de ocurrencias: (times1)
+            2.2.4.  Total de ocur\
             2.2.5.  MAXIMA cantidad de occurencias:(maximum1)
             2.2.6.  MINIMA cantidad de occurencias:(minimum1)
             2.2.7.  MEDIA de occurencias:(mean1)
