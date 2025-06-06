@@ -10,7 +10,7 @@ Algoritmo
 4.palabras <-- leer'''
 
 #cargamos el archivo y leemos las lineas(parrafos) del texto
-Text = input()
+Text = input("Ingrese el directorio del texto (hijueputa):")
 with open(Text, 'r') as archivo:
     lineas = archivo.readlines()
 import matplotlib.pyplot as plt
@@ -33,23 +33,14 @@ P5 = []
 P6 = []
 #recorremos las listas
 for num_linea, linea in enumerate(lineas, start=1):
-    if palabra1 in linea or palabra2 in Text or palabra3 in Text or palabra3 in Text or palabra4 in Text or palabra5 in Text or palabra6 in Text:
-        nums1 = linea.count(palabra1)
-        P1.append(nums1)
-        nums2 = linea.count(palabra2)
-        P2.append(nums2)
-        nums3 = linea.count(palabra3)
-        P3.append(nums3)
-        nums4 = linea.count(palabra4)
-        P4.append(nums4)
-        nums5 = linea.count(palabra5)
-        P5.append(nums5)
-        nums6 = linea.count(palabra6)
-        P6.append(nums6)
+    if palabra1 in linea or palabra2 in linea or palabra3 in linea or palabra3 in linea or palabra4 in linea or palabra5 in linea or palabra6 in linea:
+        P1.append(linea.count(palabra1))
+        P2.append(linea.count(palabra2))
+        P3.append(linea.count(palabra3))
+        P4.append(linea.count(palabra4))
+        P5.append(linea.count(palabra5))
+        P6.append(linea.count(palabra6))
         n_lineas = str(num_linea)
-
-        
-
 print(n_lineas)
 print(P1, P2, P3, P4, P5, P6)
 n1 = P1[0]
