@@ -13,6 +13,8 @@ Algoritmo
 Text = input()
 with open(Text, 'r') as archivo:
     lineas = archivo.readlines()
+import matplotlib.pyplot as plt
+import numpy as np
 #creamos una lista para las 6 palabras
 print("ingrese 6 palabras: ")
 palabra1 = input()
@@ -22,16 +24,16 @@ palabra4 = input()
 palabra5 = input()
 palabra6 = input()
 n_linea = []
+n_lineas = []
 P1 = [] 
 P2 = [] 
 P3 = []
 P4 = []
 P5 = []
 P6 = []
-
 #recorremos las listas
 for num_linea, linea in enumerate(lineas, start=1):
-    if palabra1 in Text or palabra2 in Text or palabra3 in Text or palabra3 in Text or palabra4 in Text or palabra5 in Text or palabra6 in Text:
+    if palabra1 in linea or palabra2 in Text or palabra3 in Text or palabra3 in Text or palabra4 in Text or palabra5 in Text or palabra6 in Text:
         nums1 = linea.count(palabra1)
         P1.append(nums1)
         nums2 = linea.count(palabra2)
@@ -44,20 +46,19 @@ for num_linea, linea in enumerate(lineas, start=1):
         P5.append(nums5)
         nums6 = linea.count(palabra6)
         P6.append(nums6)
+        n_lineas = str(num_linea)
 
+        
+
+print(n_lineas)
 print(P1, P2, P3, P4, P5, P6)
+n1 = P1[0]
+n2 = P1[-1]
+line1 = n_lineas[0]
+print(n1)
 
-
-"""
-a, b, c, d, e, f = conteos
-fix, axs = plt.subplots (sharex = num_linea , sharey = conteos)
-import matplotlib.pyplot as plt
-import numpy as np
-
-
-x = np.array(num_linea)
-y = np.array(a)
-
+x = np.array([0 , n_lineas])
+y = np.array([n2, n1])
 plt.plot(x,y)
-plt.title(a)
-plt.show"""
+plt.title(palabra1)
+plt.show()
