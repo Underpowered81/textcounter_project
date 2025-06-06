@@ -23,7 +23,6 @@ palabra3 = input()
 palabra4 = input()
 palabra5 = input()
 palabra6 = input()
-n_linea = []
 n_lineas = []
 P1 = [] 
 P2 = [] 
@@ -40,13 +39,14 @@ for num_linea, linea in enumerate(lineas, start=1):
         P4.append(linea.count(palabra4))
         P5.append(linea.count(palabra5))
         P6.append(linea.count(palabra6))
-        n_lineas = str(num_linea)
+        n_lineas = (num_linea)
+
+
 print(n_lineas)
 print(P1, P2, P3, P4, P5, P6)
 n1 = P1[0]
 n2 = P1[-1]
-line1 = n_lineas[0]
-print(n1)
+
 
 x = np.array([0 , n_lineas])
 y = np.array([n2, n1])
