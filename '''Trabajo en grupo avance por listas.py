@@ -10,7 +10,7 @@ Algoritmo
 4.palabras <-- leer'''
 
 #cargamos el archivo y leemos las lineas(parrafos) del texto
-Text = input("Ingrese el directorio del texto (hijueputa):")
+Text = input("Ingrese el directorio del texto:")
 with open(Text, 'r') as archivo:
     lineas = archivo.readlines()
 
@@ -51,6 +51,9 @@ media = stats.mean(P1)
 mediana = stats.median(P1)
 moda = stats.mode(P1)
 print ("ESTADISTICAS DE PALABRAS,\n", "Palabra 1:", palabra1, "\n", "Total de ocurrencias:", sum(P1), "\n", "MAXIMA cantidad de ocurrencias:", max(P1), "\n", "MINIMA cantidad de ocurrencias:", min(P1), "\n" " Media de ocurrencias:", media , "\n","Mediana de ocurrencias:",mediana,"\n", "Moda de ocurrencias:",moda, "\n")
+
+
+
 """
 P1.reverse()
 print(P1)
