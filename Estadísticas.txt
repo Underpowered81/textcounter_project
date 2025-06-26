@@ -1,49 +1,49 @@
 ESTADISTICAS DE PALABRAS 
- Palabra 1: queso 
- Total de ocurrencias: 7 
- MAXIMA cantidad de ocurrencias: 4 
- MINIMA cantidad de ocurrencias: 1 
- Media de ocurrencias: 1.75 
- Mediana de ocurrencias 1.0 
- Moda de ocurrencias:1 
-
- Palabra 2: eso 
- Total de ocurrencias: 8 
- MAXIMA cantidad de ocurrencias: 4 
- MINIMA cantidad de ocurrencias: 1 
- Media de ocurrencias: 2 
- Mediana de ocurrencias 1.5 
- Moda de ocurrencias:1 
-
-Palabra 3: su 
- Total de ocurrencias: 5 
- MAXIMA cantidad de ocurrencias: 2 
- MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 1.25 
- Mediana de ocurrencias 1.5 
- Moda de ocurrencias:2 
-
-Palabra 4: oveja 
- Total de ocurrencias: 1 
+ Palabra 1: AGOSTO 
+ Total de ocurrencias: 13 
  MAXIMA cantidad de ocurrencias: 1 
  MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 0.25 
+ Media de ocurrencias: 0.22413793103448276 
  Mediana de ocurrencias 0.0 
  Moda de ocurrencias:0 
 
-Palabra 5: eran 
- Total de ocurrencias: 1 
+ Palabra 2: MARZO 
+ Total de ocurrencias: 14 
  MAXIMA cantidad de ocurrencias: 1 
  MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 0.25 
+ Media de ocurrencias: 0.2413793103448276 
  Mediana de ocurrencias 0.0 
  Moda de ocurrencias:0 
 
-Palabra 6: ya 
- Total de ocurrencias: 2 
+Palabra 3: ABRIL 
+ Total de ocurrencias: 10 
  MAXIMA cantidad de ocurrencias: 1 
  MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 0.5 
- Mediana de ocurrencias 0.5 
+ Media de ocurrencias: 0.1724137931034483 
+ Mediana de ocurrencias 0.0 
+ Moda de ocurrencias:0 
+
+Palabra 4: JUNIO 
+ Total de ocurrencias: 12 
+ MAXIMA cantidad de ocurrencias: 1 
+ MINIMA cantidad de ocurrencias: 0 
+ Media de ocurrencias: 0.20689655172413793 
+ Mediana de ocurrencias 0.0 
+ Moda de ocurrencias:0 
+
+Palabra 5: JULIO 
+ Total de ocurrencias: 9 
+ MAXIMA cantidad de ocurrencias: 1 
+ MINIMA cantidad de ocurrencias: 0 
+ Media de ocurrencias: 0.15517241379310345 
+ Mediana de ocurrencias 0.0 
+ Moda de ocurrencias:0 
+
+Palabra 6: SEPTIEMBRE 
+ Total de ocurrencias: 0 
+ MAXIMA cantidad de ocurrencias: 0 
+ MINIMA cantidad de ocurrencias: 0 
+ Media de ocurrencias: 0 
+ Mediana de ocurrencias 0.0 
  Moda de ocurrencias:0 
 

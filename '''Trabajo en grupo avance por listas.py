@@ -10,10 +10,17 @@ Algoritmo
 4.palabras <-- leer'''
 
 #cargamos el archivo y leemos las lineas(parrafos) del texto
-Text = input("Ingrese el directorio del texto:")
+#Import open file prompt
+import tkinter as tk
+from tkinter import filedialog as fd
+
+#Ask user to select file to open
+Text = fd.askopenfilename(title="Seleccione un archivo:",
+                          filetypes=[("Archivos de texto", "*.txt")])
+
 with open(Text, 'r') as archivo:
     lineas = archivo.readlines()
-
+    
 import matplotlib.pyplot as plt
 import numpy as np
 import statistics as stats
@@ -25,14 +32,12 @@ palabra3 = input()
 palabra4 = input()
 palabra5 = input()
 palabra6 = input()
-n_lineas = [1,2,3,4]
 P1 = [] 
 P2 = [] 
 P3 = []
 P4 = []
 P5 = []
 P6 = []
-a = 1
 #recorremos las listas
 for num_linea, linea in enumerate(lineas, start=1):
     if palabra1 in linea or palabra2 in linea or palabra3 in linea or palabra3 in linea or palabra4 in linea or palabra5 in linea or palabra6 in linea:
@@ -44,8 +49,7 @@ for num_linea, linea in enumerate(lineas, start=1):
         P6.append(linea.count(palabra6))
 
 
-print(n_lineas)
-
+print(num_linea)
 print(P1, P2, P3, P4, P5, P6)
 media = stats.mean(P1)
 mediana = stats.median(P1)
