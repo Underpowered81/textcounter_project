@@ -1,0 +1,49 @@
+ESTADISTICAS DE PALABRAS 
+ Palabra 1: queso 
+ Total de ocurrencias: 7 
+ MAXIMA cantidad de ocurrencias: 4 
+ MINIMA cantidad de ocurrencias: 1 
+ Media de ocurrencias: 1.75 
+ Mediana de ocurrencias 1.0 
+ Moda de ocurrencias:1 
+
+ Palabra 2: eso 
+ Total de ocurrencias: 8 
+ MAXIMA cantidad de ocurrencias: 4 
+ MINIMA cantidad de ocurrencias: 1 
+ Media de ocurrencias: 2 
+ Mediana de ocurrencias 1.5 
+ Moda de ocurrencias:1 
+
+Palabra 3: su 
+ Total de ocurrencias: 5 
+ MAXIMA cantidad de ocurrencias: 2 
+ MINIMA cantidad de ocurrencias: 0 
+ Media de ocurrencias: 1.25 
+ Mediana de ocurrencias 1.5 
+ Moda de ocurrencias:2 
+
+Palabra 4: oveja 
+ Total de ocurrencias: 1 
+ MAXIMA cantidad de ocurrencias: 1 
+ MINIMA cantidad de ocurrencias: 0 
+ Media de ocurrencias: 0.25 
+ Mediana de ocurrencias 0.0 
+ Moda de ocurrencias:0 
+
+Palabra 5: eran 
+ Total de ocurrencias: 1 
+ MAXIMA cantidad de ocurrencias: 1 
+ MINIMA cantidad de ocurrencias: 0 
+ Media de ocurrencias: 0.25 
+ Mediana de ocurrencias 0.0 
+ Moda de ocurrencias:0 
+
+Palabra 6: ya 
+ Total de ocurrencias: 2 
+ MAXIMA cantidad de ocurrencias: 1 
+ MINIMA cantidad de ocurrencias: 0 
+ Media de ocurrencias: 0.5 
+ Mediana de ocurrencias 0.5 
+ Moda de ocurrencias:0 
+
