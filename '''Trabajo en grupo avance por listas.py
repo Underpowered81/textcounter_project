@@ -89,15 +89,15 @@ ax = axes [1][0]
 ax.plot(n_1,P4, color="lightblue")
 ax.set_title(palabra4, color="lightblue", fontdict = Fuente_ax)
 #NP5
-ax = axes [1][2] 
+ax = axes [1][1] 
 ax.plot(n_1,P5, color="darkblue")
 ax.set_title(palabra5, color="darkblue", fontdict = Fuente_ax)
 #NP6
-ax = axes [1][1] 
+ax = axes [1][2] 
 ax.plot(n_1,P6, color="pink")
 ax.set_title(palabra6, color="pink", fontdict = Fuente_ax)
 #last
 plt.suptitle("OCURRENCIAS DE PALABRAS POR PÁRRAFO", fontdict = Fuente_t, fontsize= 25)
 plt.subplots_adjust(hspace=0.4, wspace=0.45)
 plt.show()
-
+ 
