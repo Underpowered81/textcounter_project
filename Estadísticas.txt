@@ -7,7 +7,23 @@ ESTADISTICAS DE PALABRAS
  Mediana de ocurrencias 1.0 
  Moda de ocurrencias:1 
 
- Palabra 2: oveja 
+ Palabra 2: tiempo 
+ Total de ocurrencias: 0 
+ MAXIMA cantidad de ocurrencias: 0 
+ MINIMA cantidad de ocurrencias: 0 
+ Media de ocurrencias: 0 
+ Mediana de ocurrencias 0.0 
+ Moda de ocurrencias:0 
+
+Palabra 3: proceso 
+ Total de ocurrencias: 0 
+ MAXIMA cantidad de ocurrencias: 0 
+ MINIMA cantidad de ocurrencias: 0 
+ Media de ocurrencias: 0 
+ Mediana de ocurrencias 0.0 
+ Moda de ocurrencias:0 
+
+Palabra 4: por 
  Total de ocurrencias: 1 
  MAXIMA cantidad de ocurrencias: 1 
  MINIMA cantidad de ocurrencias: 0 
@@ -15,7 +31,7 @@ ESTADISTICAS DE PALABRAS
  Mediana de ocurrencias 0.0 
  Moda de ocurrencias:0 
 
-Palabra 3: cosa 
+Palabra 5: cabra 
  Total de ocurrencias: 0 
  MAXIMA cantidad de ocurrencias: 0 
  MINIMA cantidad de ocurrencias: 0 
@@ -23,27 +39,11 @@ Palabra 3: cosa
  Mediana de ocurrencias 0.0 
  Moda de ocurrencias:0 
 
-Palabra 4: eso 
- Total de ocurrencias: 8 
- MAXIMA cantidad de ocurrencias: 4 
- MINIMA cantidad de ocurrencias: 1 
- Media de ocurrencias: 2 
- Mediana de ocurrencias 1.5 
- Moda de ocurrencias:1 
-
-Palabra 5: pero 
- Total de ocurrencias: 0 
- MAXIMA cantidad de ocurrencias: 0 
- MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 0 
- Mediana de ocurrencias 0.0 
- Moda de ocurrencias:0 
-
-Palabra 6: ya 
- Total de ocurrencias: 2 
+Palabra 6: oveja 
+ Total de ocurrencias: 1 
  MAXIMA cantidad de ocurrencias: 1 
  MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 0.5 
- Mediana de ocurrencias 0.5 
+ Media de ocurrencias: 0.25 
+ Mediana de ocurrencias 0.0 
  Moda de ocurrencias:0 
 

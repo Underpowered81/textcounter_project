@@ -71,7 +71,7 @@ Mayor = max(N_mayor)
 print(Mayor)
 Fuente_t = {'family':'serif','color':'grey'} 
 Fuente_ax = {'family':'serif','color':'grey','size': 14} 
-fig, axes = plt.subplots(2,3,figsize=(Mayor,num_linea), sharex="row", sharey="col") 
+fig, axes = plt.subplots(2,3,figsize=(Mayor,num_linea), sharex="row", sharey=all) 
 #NP1
 ax = axes [0][0] 
 ax.plot(n_1,P1, color="navy")
@@ -86,18 +86,18 @@ ax.plot(n_1,P3,  color="darkgreen")
 ax.set_title(palabra3, color="darkgreen", fontdict = Fuente_ax)
 #NP4
 ax = axes [1][0] 
-ax.plot(n_1,P4, color="lightblue")
-ax.set_title(palabra4, color="lightblue", fontdict = Fuente_ax)
+ax.plot(n_1,P4, color="cyan")
+ax.set_title(palabra4, color="cyan", fontdict = Fuente_ax)
 #NP5
 ax = axes [1][1] 
 ax.plot(n_1,P5, color="darkblue")
 ax.set_title(palabra5, color="darkblue", fontdict = Fuente_ax)
 #NP6
 ax = axes [1][2] 
-ax.plot(n_1,P6, color="pink")
-ax.set_title(palabra6, color="pink", fontdict = Fuente_ax)
+ax.plot(n_1,P6, color="magenta")
+ax.set_title(palabra6, color="magenta", fontdict = Fuente_ax)
 #last
-plt.suptitle("OCURRENCIAS DE PALABRAS POR PÁRRAFO", fontdict = Fuente_t, fontsize= 25)
+plt.suptitle("OCURRENCIAS DE PALABRAS POR PÁRRAFO", fontdict = Fuente_t, fontsize= 18, fontweight = "bold")
 plt.subplots_adjust(hspace=0.4, wspace=0.45)
 plt.show()
  
