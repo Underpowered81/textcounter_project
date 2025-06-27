@@ -38,6 +38,8 @@ P3 = []
 P4 = []
 P5 = []
 P6 = []
+n_1 = []
+p = 1
 #recorremos las listas
 for num_linea, linea in enumerate(lineas, start=1):
     if palabra1 in linea or palabra2 in linea or palabra3 in linea or palabra3 in linea or palabra4 in linea or palabra5 in linea or palabra6 in linea:
@@ -47,10 +49,12 @@ for num_linea, linea in enumerate(lineas, start=1):
         P4.append(linea.count(palabra4))
         P5.append(linea.count(palabra5))
         P6.append(linea.count(palabra6))
+        n_1.append(p)
+        p+=1
+        
 
-
+print(n_1)
 print(num_linea)
-print(P1, P2, P3, P4, P5, P6)
 
 with open("Estadísticas.txt", "w",) as E:
     E.write(f"ESTADISTICAS DE PALABRAS \n Palabra 1: {palabra1} \n Total de ocurrencias: {sum(P1)} \n MAXIMA cantidad de ocurrencias: {max(P1)} \n MINIMA cantidad de ocurrencias: {min(P1)} \n Media de ocurrencias: {stats.mean(P1)} \n Mediana de ocurrencias {stats.median(P1)} \n Moda de ocurrencias:{stats.mode(P1)} \n\n ")
@@ -60,19 +64,40 @@ with open("Estadísticas.txt", "a") as E:
     E.write(f"Palabra 4: {palabra4} \n Total de ocurrencias: {sum(P4)} \n MAXIMA cantidad de ocurrencias: {max(P4)} \n MINIMA cantidad de ocurrencias: {min(P4)} \n Media de ocurrencias: {stats.mean(P4)} \n Mediana de ocurrencias {stats.median(P4)} \n Moda de ocurrencias:{stats.mode(P4)} \n\n")
     E.write(f"Palabra 5: {palabra5} \n Total de ocurrencias: {sum(P5)} \n MAXIMA cantidad de ocurrencias: {max(P5)} \n MINIMA cantidad de ocurrencias: {min(P5)} \n Media de ocurrencias: {stats.mean(P5)} \n Mediana de ocurrencias {stats.median(P5)} \n Moda de ocurrencias:{stats.mode(P5)} \n\n")
     E.write(f"Palabra 6: {palabra6} \n Total de ocurrencias: {sum(P6)} \n MAXIMA cantidad de ocurrencias: {max(P6)} \n MINIMA cantidad de ocurrencias: {min(P6)} \n Media de ocurrencias: {stats.mean(P6)} \n Mediana de ocurrencias {stats.median(P6)} \n Moda de ocurrencias:{stats.mode(P6)} \n\n")
-"""
-P1.reverse()
-print(P1)
-O1 = int(P1[0])
-O2 = int(P1[1])
-O3 = int(P1[2])
-O4 = int(P1[3])
 
-
-x = np.array([n_lineas])
-y = np.array([P1])
-plt.plot(x,y)
-
-plt.title(palabra1)
+N_mayor = []
+N_mayor.extend(P1), N_mayor.extend(P2), N_mayor.extend(P3), N_mayor.extend(P4), N_mayor.extend(P5), N_mayor.extend(P6)
+Mayor = max(N_mayor)
+print(Mayor)
+Fuente_t = {'family':'serif','color':'grey'} 
+Fuente_ax = {'family':'serif','color':'grey','size': 14} 
+fig, axes = plt.subplots(2,3,figsize=(Mayor,num_linea), sharex="row", sharey="col") 
+#NP1
+ax = axes [0][0] 
+ax.plot(n_1,P1, color="navy")
+ax.set_title(palabra1,color = "navy", fontdict = Fuente_ax)
+#NP2
+ax = axes [0][1] 
+ax.plot(n_1,P2, color="red")
+ax.set_title(palabra2, color="red", fontdict = Fuente_ax)
+#NP3
+ax = axes [0][2] 
+ax.plot(n_1,P3,  color="darkgreen")
+ax.set_title(palabra3, color="darkgreen", fontdict = Fuente_ax)
+#NP4
+ax = axes [1][0] 
+ax.plot(n_1,P4, color="lightblue")
+ax.set_title(palabra4, color="lightblue", fontdict = Fuente_ax)
+#NP5
+ax = axes [1][2] 
+ax.plot(n_1,P5, color="darkblue")
+ax.set_title(palabra5, color="darkblue", fontdict = Fuente_ax)
+#NP6
+ax = axes [1][1] 
+ax.plot(n_1,P6, color="pink")
+ax.set_title(palabra6, color="pink", fontdict = Fuente_ax)
+#last
+plt.suptitle("OCURRENCIAS DE PALABRAS POR PÁRRAFO", fontdict = Fuente_t, fontsize= 25)
+plt.subplots_adjust(hspace=0.4, wspace=0.45)
 plt.show()
-"""
+

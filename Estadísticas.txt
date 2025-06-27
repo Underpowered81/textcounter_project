@@ -1,49 +1,49 @@
 ESTADISTICAS DE PALABRAS 
- Palabra 1: AGOSTO 
- Total de ocurrencias: 13 
- MAXIMA cantidad de ocurrencias: 1 
- MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 0.22413793103448276 
- Mediana de ocurrencias 0.0 
- Moda de ocurrencias:0 
-
- Palabra 2: MARZO 
+ Palabra 1: MARZO 
  Total de ocurrencias: 14 
  MAXIMA cantidad de ocurrencias: 1 
  MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 0.2413793103448276 
+ Media de ocurrencias: 0.21875 
  Mediana de ocurrencias 0.0 
  Moda de ocurrencias:0 
 
-Palabra 3: ABRIL 
+ Palabra 2: ABRIL 
  Total de ocurrencias: 10 
  MAXIMA cantidad de ocurrencias: 1 
  MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 0.1724137931034483 
+ Media de ocurrencias: 0.15625 
  Mediana de ocurrencias 0.0 
  Moda de ocurrencias:0 
 
-Palabra 4: JUNIO 
+Palabra 3: JUNIO 
  Total de ocurrencias: 12 
  MAXIMA cantidad de ocurrencias: 1 
  MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 0.20689655172413793 
+ Media de ocurrencias: 0.1875 
  Mediana de ocurrencias 0.0 
  Moda de ocurrencias:0 
 
-Palabra 5: JULIO 
+Palabra 4: JULIO 
  Total de ocurrencias: 9 
  MAXIMA cantidad de ocurrencias: 1 
  MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 0.15517241379310345 
+ Media de ocurrencias: 0.140625 
  Mediana de ocurrencias 0.0 
  Moda de ocurrencias:0 
 
-Palabra 6: SEPTIEMBRE 
- Total de ocurrencias: 0 
- MAXIMA cantidad de ocurrencias: 0 
+Palabra 5: AGOSTO 
+ Total de ocurrencias: 13 
+ MAXIMA cantidad de ocurrencias: 1 
  MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 0 
+ Media de ocurrencias: 0.203125 
+ Mediana de ocurrencias 0.0 
+ Moda de ocurrencias:0 
+
+Palabra 6: NOVIEMBRE 
+ Total de ocurrencias: 6 
+ MAXIMA cantidad de ocurrencias: 1 
+ MINIMA cantidad de ocurrencias: 0 
+ Media de ocurrencias: 0.09375 
  Mediana de ocurrencias 0.0 
  Moda de ocurrencias:0 
 
