@@ -20,7 +20,7 @@ Text = fd.askopenfilename(title="Seleccione un archivo:",
 
 with open(Text, 'r') as archivo:
     lineas = archivo.readlines()
-    
+
 import matplotlib.pyplot as plt
 import numpy as np
 import statistics as stats
@@ -51,10 +51,7 @@ for num_linea, linea in enumerate(lineas, start=1):
 
 print(num_linea)
 print(P1, P2, P3, P4, P5, P6)
-media = stats.mean(P1)
-mediana = stats.median(P1)
-moda = stats.mode(P1)
-""
+
 with open("Estadísticas.txt", "w",) as E:
     E.write(f"ESTADISTICAS DE PALABRAS \n Palabra 1: {palabra1} \n Total de ocurrencias: {sum(P1)} \n MAXIMA cantidad de ocurrencias: {max(P1)} \n MINIMA cantidad de ocurrencias: {min(P1)} \n Media de ocurrencias: {stats.mean(P1)} \n Mediana de ocurrencias {stats.median(P1)} \n Moda de ocurrencias:{stats.mode(P1)} \n\n ")
 with open("Estadísticas.txt", "a") as E: 
