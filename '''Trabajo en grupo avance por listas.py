@@ -53,9 +53,6 @@ for num_linea, linea in enumerate(lineas, start=1):
         p+=1
         
 
-print(n_1)
-print(num_linea)
-
 with open("Estadísticas.txt", "w",) as E:
     E.write(f"ESTADISTICAS DE PALABRAS \n Palabra 1: {palabra1} \n Total de ocurrencias: {sum(P1)} \n MAXIMA cantidad de ocurrencias: {max(P1)} \n MINIMA cantidad de ocurrencias: {min(P1)} \n Media de ocurrencias: {stats.mean(P1)} \n Mediana de ocurrencias {stats.median(P1)} \n Moda de ocurrencias:{stats.mode(P1)} \n\n ")
 with open("Estadísticas.txt", "a") as E: 
