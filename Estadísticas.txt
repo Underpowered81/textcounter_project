@@ -1,49 +1,49 @@
 ESTADISTICAS DE PALABRAS 
- Palabra 1: oveja 
- Total de ocurrencias: 1 
+ Palabra 1: MARZO 
+ Total de ocurrencias: 14 
  MAXIMA cantidad de ocurrencias: 1 
  MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 0.25 
+ Media de ocurrencias: 0.2 
  Mediana de ocurrencias 0.0 
  Moda de ocurrencias:0 
 
- Palabra 2: queso 
- Total de ocurrencias: 7 
- MAXIMA cantidad de ocurrencias: 4 
- MINIMA cantidad de ocurrencias: 1 
- Media de ocurrencias: 1.75 
- Mediana de ocurrencias 1.0 
- Moda de ocurrencias:1 
-
-Palabra 3: pizza 
- Total de ocurrencias: 0 
- MAXIMA cantidad de ocurrencias: 0 
- MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 0 
- Mediana de ocurrencias 0.0 
- Moda de ocurrencias:0 
-
-Palabra 4: tiempo 
- Total de ocurrencias: 0 
- MAXIMA cantidad de ocurrencias: 0 
- MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 0 
- Mediana de ocurrencias 0.0 
- Moda de ocurrencias:0 
-
-Palabra 5: pene 
- Total de ocurrencias: 0 
- MAXIMA cantidad de ocurrencias: 0 
- MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 0 
- Mediana de ocurrencias 0.0 
- Moda de ocurrencias:0 
-
-Palabra 6: por 
- Total de ocurrencias: 1 
+ Palabra 2: ABRIL 
+ Total de ocurrencias: 10 
  MAXIMA cantidad de ocurrencias: 1 
  MINIMA cantidad de ocurrencias: 0 
- Media de ocurrencias: 0.25 
+ Media de ocurrencias: 0.14285714285714285 
+ Mediana de ocurrencias 0.0 
+ Moda de ocurrencias:0 
+
+Palabra 3: JUNIO 
+ Total de ocurrencias: 12 
+ MAXIMA cantidad de ocurrencias: 1 
+ MINIMA cantidad de ocurrencias: 0 
+ Media de ocurrencias: 0.17142857142857143 
+ Mediana de ocurrencias 0.0 
+ Moda de ocurrencias:0 
+
+Palabra 4: JULIO 
+ Total de ocurrencias: 9 
+ MAXIMA cantidad de ocurrencias: 1 
+ MINIMA cantidad de ocurrencias: 0 
+ Media de ocurrencias: 0.12857142857142856 
+ Mediana de ocurrencias 0.0 
+ Moda de ocurrencias:0 
+
+Palabra 5: AGOSTO 
+ Total de ocurrencias: 13 
+ MAXIMA cantidad de ocurrencias: 1 
+ MINIMA cantidad de ocurrencias: 0 
+ Media de ocurrencias: 0.18571428571428572 
+ Mediana de ocurrencias 0.0 
+ Moda de ocurrencias:0 
+
+Palabra 6: MAYO 
+ Total de ocurrencias: 12 
+ MAXIMA cantidad de ocurrencias: 1 
+ MINIMA cantidad de ocurrencias: 0 
+ Media de ocurrencias: 0.17142857142857143 
  Mediana de ocurrencias 0.0 
  Moda de ocurrencias:0 
 
